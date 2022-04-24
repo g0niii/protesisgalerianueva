@@ -327,6 +327,17 @@ div.desc {
   text-align: center;
 }
 
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
 @media (max-width: 1000px) {
   .gridPadre {
     grid-template-columns: 1fr 1fr;
@@ -468,7 +479,8 @@ div.desc {
     background-size: cover;
     background-position: center center;
   }
-
+}
+@media (max-width: 1000px) and (min-width: 400px) and (max-width: 1000px) {
   body {
     box-sizing: border-box;
   }
@@ -505,12 +517,6 @@ div.desc {
     font-size: 50px;
     height: 9vw;
     width: 90vw;
-  }
-  nav ul main form {
-    text-align: center;
-    font-weight: 1000;
-    font-family: Georgia;
-    font-size: 40px;
   }
 
   .nav1 {
@@ -620,6 +626,13 @@ div.desc {
 
   .volver {
     font-size: 40;
+  }
+
+  main form {
+    text-align: center;
+    font-weight: 1000;
+    font-family: Georgia;
+    font-size: 40px;
   }
 
   h2, h3 {
